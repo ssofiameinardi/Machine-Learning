@@ -1,0 +1,15 @@
+La inteligencia artificial es el dominio de estudio que consiste en simular un proceso cognitivo. El proceso de utilizar grandes cantidades de datos 
+y aplicarles estadisticas, es el machine learning. El deep learning no es más que una técnica utilizable en el machine learning
+Por último, la Data Science consiste en encontrar hechos interesantes en los datos, representarlos gráficamente y devolverlos de tal forma que
+puedan ser utilizados para fines importantes.
+
+APRENDIZAJE SUPERVISADO: se trata de proveerle numerosos ejemplos al algoritmo con las entradas y salidas esperadas. Comparando el resultado
+del modelo con el esperado es que éste va a mejorar
+Las principales tareas en el aprendizaje supervisado son la clasificación, la regresión y la previsión.
+    - clasificación: la salida esperada es una categoría.
+    - regresión: la salida esperada es un valor numerico en funcion de caracteristicas. Asi es como se puede predecir el precio de un producto o 
+    de un servicio, o el consumo electrico anual de un electrodoméstico
+    - previsión: es una regresión particular. En efecto, en vez de utilizar caracteristicas para determinar un valor numerico, el objetivo es 
+    predecir la salida gracias a valores asociados anteriormetne con esa misma variable
+
+APRENDIDZAJE NO SUPERVISADO: La diferencia principal es que las salidas esperadas no están disponibles. No hay "Respuesta correcta" esperada.
