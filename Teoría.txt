@@ -12,4 +12,57 @@ Las principales tareas en el aprendizaje supervisado son la clasificación, la r
     - previsión: es una regresión particular. En efecto, en vez de utilizar caracteristicas para determinar un valor numerico, el objetivo es 
     predecir la salida gracias a valores asociados anteriormetne con esa misma variable
 
-APRENDIDZAJE NO SUPERVISADO: La diferencia principal es que las salidas esperadas no están disponibles. No hay "Respuesta correcta" esperada.
+APRENDIZAJE NO SUPERVISADO: La diferencia principal es que las salidas esperadas no están disponibles. No hay "Respuesta correcta" esperada. Permite
+extraer una visión global de los datos voluminosos para un análisis humano.
+    - Clustering: consiste en reagrupar los datos en varias clases no previamente determinadas. El usuario necesita solo la cantidad de clases
+    deseadas, sin indicaciones sobre su contenido. Con grandes cantidades de datos, este procedimiento permite la segmentación.
+    - Reduccion de dimensiones: Este pre-tratamiento de los datos es necesario para poder analizarlos, comprenderlos y estudiarlos ya que no se puede
+    visualizarlos gráficamente. Este proceso también permite limitar el numero de variables explicativas como entrada de un proceso de ML
+    - Sistemas de recomendación: Sitios de venta en linea, plataforma de contenidos audiovisual. Como dato toman el pasado del usuario, las 
+    características del contenido o las elecciones de otros usuarios de la plataforma.
+    - Asociaciones: Se enfoca en descubrir, por el historial, los vinculos entre los contenidos. Permite valorizar los conjuntos o utilizarlos para 
+    dirigir al usuario a otras compras, como por ejemplo, por medio de promociones al comprar más de un producto.
+
+APRENDIZAJE POR REFUERZO: No es necesario ningún dato para comenzar. El modelo aprenderá a partir de la evaluación de soluciones potenciales producidas
+a lo largo del tiempo. Entonces, es necesario evaluar su calidad.
+
+APRENDIZAJE SEMI-SUPERVISADO: El objetivo es crear un primer modelo con algunos datos y utilizarlos para etiquetar automaticamente los datos siguientes
+
+
+La metodología CRISP-DM es la más utilizada para los proyectos de machine learning. Significa 'Cross Industry Standard Process for Data Mining'
+Se trata de un proceso que no depende del dominio de aplicación.
+
+Es un método iterativo que cuenta con cinco fases encadenandose hasta la validación de un resultao, con idas y vueltas entre algunas. Las fases son:
+    - Business understanding: Su objetivo es de comprender las necesidades profesionales y los objetivos del proyecto. 
+    - Data understanding: Corresponde a una fase de estadísticas descriptivas principalmente y permite tomas conocimiento de los datos proveídos
+    - Data preparation: Se efectúan las modificaciones de formatos o las creaciones de características 
+    - Modeling: Se crean los modelos y se optimizan los parámetros.
+    - Evaluation: Profesionales evalúan si la calidad de la solucion propuesta corresponde a las limitaciones de producción.
+
+El diagrama de este método: https://app.diagrams.net/#G1ws-lYOPV2Mel3G7rehwSCWzJthJnXxIk#%7B%22pageId%22%3A%22eBFuW779kKmW-KHSnuAc%22%7D
+
+
+CAPITULO 3
+
+Existen 3 categoras de herramientas que la Data Science y el Machine learning utilizan:
+- Herramientas integradas: Contienen lo necesario para un proyecto: cargar los datos, analizarlos, crear modelos, evaluarlos, desplegarlos, crear
+reportes, etc. ALgunos ejemplos son PowerBI, Tableau, QlikView, Snowflake, DSS, SAS
+- AutoML: simplifican el proceso para los no-expertos automatizando al máximo las diferentes fases. Es una interfaz donde el usuario carga los datos
+e indica qué tarea desea que se realice sobre ellos, luego el mismo sistema se encarga del proceso y devuelve el mejor modelo creado. 
+- Herramientas de desarrollo: Aquellas con las que se pueden hacer más cosas que solo codigo. Visual Studio Code, Git
+
+Librerías populares en la data science:
+- Numpy: permite trabajar con matrices n-dimensionales. [ndarray]
+- Pandas: Permite trabajar, además de con elementos de tipo ndarray, con archivos txt, csv, json, excel, etc. [Dataframe]
+- Matplotlib: Permite realizar varios gráficos a partir de los datos
+- Scikit-learn: Permite efectuar las etapas de pre-tratamiento de datos, creación de modelos y la optimizacion de parametros e inferencias a la vez
+
+Librerías populares de Deep Learning
+- TensorFlow
+- PyTorch: propone numerosos ejemplos y casos de uso. Además, es posible compilar modelos para optimizar todavía más la fase de inferencia
+- MXNet: Es óptima en casos de calculo distribuido sobre varios CPU o GPU y se integra facilmente en las diferentes nubes proveedoras. Se la puede 
+utilizar con varios lenguajes: Pyhton, c++, Javascript, R, etc.
+- Microsoft Cognitive Toolkit
+- Keras: Facil de leer y de utilizar. No hace ningun cálculo por si misma, se apoya en otras librerias (backend) para hacerlos:TensorFlow, MXNet, MCTK
+- Gluon: Es otra libreria de alto nivel, que se apoya en MXNet. Simplifica la escritura de modelos y su entrenamiento. Además, existen módulos de
+Gluon específicos para el tratamiento de imágenes o de lenguaje natural
