@@ -66,3 +66,7 @@ utilizar con varios lenguajes: Pyhton, c++, Javascript, R, etc.
 - Keras: Facil de leer y de utilizar. No hace ningun cálculo por si misma, se apoya en otras librerias (backend) para hacerlos:TensorFlow, MXNet, MCTK
 - Gluon: Es otra libreria de alto nivel, que se apoya en MXNet. Simplifica la escritura de modelos y su entrenamiento. Además, existen módulos de
 Gluon específicos para el tratamiento de imágenes o de lenguaje natural
+- Caffe
+
+Todas las librerias proponen 'model zoos', que se trata de un conjunto de modelos listos para usar, cuyos pesos son pre-entrenados para ser utilizados
+en Transfer Learning o directamente.
